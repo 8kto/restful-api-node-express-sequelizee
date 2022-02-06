@@ -1,0 +1,24 @@
+{
+  "name": "postgres-express-react-node-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}
